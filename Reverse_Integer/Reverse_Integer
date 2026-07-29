@@ -1,0 +1,22 @@
+# 7. Reverse Integer
+
+## Problem
+
+Given a signed 32-bit integer `x`, return `x` with its digits reversed. If reversing `x` causes the value to go outside the signed 32-bit integer range, return `0`.
+
+## Algorithm
+
+1. Check whether the number is positive or negative.
+2. Store its sign.
+3. Reverse the digits using string slicing.
+4. Restore the original sign.
+5. Check if the reversed number is within the 32-bit signed integer range.
+6. Return the reversed number if valid; otherwise return `0`.
+
+## Time Complexity
+
+O(n)
+
+## Space Complexity
+
+O(n)
